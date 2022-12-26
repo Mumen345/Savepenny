@@ -27,5 +27,17 @@ export default {
     width: 50%;
     margin: 0 auto;
     display: flex;
+    height: 100vh;
+}
+
+@media screen and (max-width: 430px) {
+    .img_resp {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
 }
 </style>
