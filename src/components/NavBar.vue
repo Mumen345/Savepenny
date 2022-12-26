@@ -11,7 +11,8 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarExample01">
-                <router-link class="nav-link me-5" to="/"><img src="../assets/main-logo.svg" alt=""></router-link>
+                <router-link class="nav-link me-5 logo_remove" to="/"><img src="../assets/main-logo.svg"
+                        alt=""></router-link>
 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item ">
@@ -61,6 +62,10 @@ export default {
 @media screen and (max-width: 990px) {
     .mobile {
         display: block;
+    }
+
+    .logo_remove {
+        display: none;
     }
 }
 </style>
