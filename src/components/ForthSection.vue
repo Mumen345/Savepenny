@@ -19,7 +19,7 @@ export default {
 
 <style scoped>
 .sub_text {
-    font-weight: 600;
+    font-weight: 500;
     width: 517px;
     font-size: 16px;
     line-height: 40px;
@@ -59,7 +59,7 @@ export default {
     }
 
     .sub_text {
-        font-weight: 600;
+        font-weight: 500;
         width: 100%;
         font-size: 16px;
         line-height: 40px;

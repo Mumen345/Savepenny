@@ -72,6 +72,7 @@ export default {
     background-color: #F7EEFF;
     color: #7750A1;
     font-weight: 500;
+
 }
 
 .hero_btn_div {
@@ -196,6 +197,10 @@ export default {
             display: none;
         }
 
+        .hero_btn {
+            margin-right: 0rem !important;
+
+        }
     }
 
     @media screen and (max-width: 1000px) {

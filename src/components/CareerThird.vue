@@ -42,14 +42,19 @@ h2 {
 }
 
 @media screen and (max-width: 990px) {
+    .third_section_container p {
+        color: #ffffff;
+        width: 80%;
+    }
+
     .third_section_container {
+        background-image: none;
+        background-color: #5E0083;
         display: flex;
-        justify-content: center;
-        flex-direction: column-reverse;
-        align-items: center;
-        gap: 100px;
-        width: 100%;
+        width: 90%;
         margin: 100px auto;
+        text-align: center;
+        color: #ffffff !important;
     }
 
     .third_text {
@@ -71,5 +76,6 @@ h2 {
     .thirdSection_img {
         width: 80%;
     }
+
 }
 </style>

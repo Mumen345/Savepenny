@@ -18,7 +18,7 @@ export default {
 
 <style scoped>
 .sub_text {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 40px;
     color: #404040;
