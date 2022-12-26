@@ -1,6 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container-fluid">
+            <router-link class=" mobile me-5" to="/"><img src="../assets/main-logo.svg" alt=""></router-link>
             <button class="navbar-toggler ps-0" type="button" data-mdb-toggle="collapse"
                 data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -8,6 +9,7 @@
                     <i class="fas fa-bars"></i>
                 </span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarExample01">
                 <router-link class="nav-link me-5" to="/"><img src="../assets/main-logo.svg" alt=""></router-link>
 
@@ -50,5 +52,15 @@ export default {
     max-width: 1440px !important;
     margin: 0 auto;
     background-color: red;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 990px) {
+    .mobile {
+        display: block;
+    }
 }
 </style>
