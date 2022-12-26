@@ -1,17 +1,23 @@
 <template>
     <div class="about">
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1>This is the Career screen</h1>
+        <CareerHero />
+        <CareerSecondsection />
+        <CareerThird />
+        <FifthSection />
+        <FooterSection />
     </div>
 </template>
   
 
 <script>
-export default {
+import CareerHero from '@/components/CareerHero.vue';
+import FifthSection from '@/components/FifthSection.vue';
+import CareerSecondsection from '@/components/CareerSecondsection.vue';
+import CareerThird from '@/components/CareerThird.vue';
+import FooterSection from '@/components/FooterSection.vue';
 
+export default {
+    components: { CareerHero, FooterSection, FifthSection, CareerSecondsection, CareerThird }
 }
 </script>
 

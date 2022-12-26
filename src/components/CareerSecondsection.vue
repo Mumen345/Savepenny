@@ -1,14 +1,12 @@
 <template>
     <div class="section_two">
         <div v-motion-slide-visible-once-left class="section_two_left">
-            <h2>Payments designed with you in mind</h2>
-            <p class="sub_text">We design an app so easy to enable you carry out your transactions swiftly and on time.
-                It’s
-                so simple, the
-                pleasure is in the details.</p>
+            <h2>Accepted Globally</h2>
+            <p class="sub_text">You get a Mastercard that can be used on every digital store. For your Spotify, Netflix,
+                and other streaming subscriptions. Shop on Amazon, buy call of duty credits and more online. </p>
         </div>
-        <img v-motion-slide-visible-once-right class="web" src="../assets/second_section.png" alt="">
-        <img v-motion-slide-visible-once-right class="mobile" src="../assets/second_section_mobile.png" alt="">
+        <img v-motion-slide-visible-once-right class="web" src="../assets/buy_subscribe.png" alt="">
+        <img v-motion-slide-visible-once-right class="mobile" src="../assets/buy_subscribe_mobile.png" alt="">
     </div>
 </template>
 
@@ -41,7 +39,7 @@ export default {
     align-items: center;
     padding: 70px;
     gap: 30px;
-    margin-top: 40px;
+    margin-top: 0;
 }
 
 .section_two_left {

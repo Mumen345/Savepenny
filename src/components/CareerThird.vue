@@ -1,11 +1,10 @@
 <template>
     <div class="third_section_container">
-        <img v-motion-slide-visible-once-left class="thirdSection_img" src="../assets/section3.svg" alt="">
         <div v-motion-slide-visible-once-right class="third_text">
-            <h2>Decide. Pay. Done</h2>
-            <p class="sub_text">Whatever you decide to do with your money, we’ll make sure it’s done better. It’s more
-                than money, it’s a
-                lifestyle</p>
+            <img src="../assets/logo_white.svg" alt="">
+            <h2>Restrict access and be secured</h2>
+            <p class="sub_text">Get instant and real-time notifications whenever there’s an activity on your card.
+                Temporarily freeze and unfreeze your card directly from the Grey app.</p>
         </div>
     </div>
 </template>
@@ -21,17 +20,25 @@ export default {
     font-weight: 600;
     font-size: 16px;
     line-height: 40px;
-    color: #404040;
-    width: 414px;
+    color: #ffffff;
+    width: 500px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #ffffff;
 }
 
 .third_section_container {
+    background-image: url("../assets/secure_bg.svg");
+    background-size: cover;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 100px;
-    width: 80%;
-    margin: 100px auto;
+    height: 700px;
+    width: 100%;
+    width: 100%;
+    text-align: center;
 }
 
 @media screen and (max-width: 990px) {
@@ -54,7 +61,7 @@ export default {
     }
 
     .sub_text {
-        font-weight: 500;
+        font-weight: 600;
         font-size: 16px;
         line-height: 40px;
         color: #404040;
