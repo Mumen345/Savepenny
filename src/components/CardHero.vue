@@ -205,7 +205,7 @@ export default {
     .career_hero_container {
         background-image: none;
         background-size: cover;
-        height: 100vh;
+        height: auto;
         width: 100%;
         display: flex;
         flex-direction: column;

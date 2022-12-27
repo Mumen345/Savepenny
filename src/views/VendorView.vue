@@ -1,18 +1,26 @@
 <template>
-    <div class="about">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1>This is the Vendor screen</h1>
+    <div>
+        <br />
+        <br />
+        <br />
+        <VendorHero />
+        <InstantSolution />
+        <PosSection />
+        <FifthSection />
+        <FooterSection />
     </div>
 </template>
   
 
 <script>
-export default {
+import VendorHero from '@/components/VendorHero.vue';
+import InstantSolution from '@/components/InstantSolution.vue';
+import FifthSection from '@/components/FifthSection.vue';
+import PosSection from '@/components/PosSection.vue';
+import FooterSection from '@/components/FooterSection.vue';
 
+export default {
+    components: { VendorHero, FifthSection, FooterSection, InstantSolution, PosSection }
 }
 </script>
 

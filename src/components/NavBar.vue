@@ -16,13 +16,13 @@
 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item ">
-                        <router-link class="nav-link" to="/careers">Career</router-link>
+                        <router-link class="nav-link" to="/cards">Cards</router-link>
                     </li>
                     <li class="nav-item ">
                         <router-link class="nav-link" to="/vendors">vendors</router-link>
                     </li>
                     <li class="nav-item ">
-                        <router-link class="nav-link" to="/cards">Cards</router-link>
+                        <router-link class="nav-link" to="/careers">Careers</router-link>
                     </li>
                     <li class="nav-item ">
                         <router-link class="nav-link" to="/docs">API Documentation</router-link>
