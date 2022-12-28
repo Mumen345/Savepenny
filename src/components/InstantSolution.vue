@@ -30,7 +30,8 @@
             </div>
             <img class="web" v-motion-slide-right src="../assets/payment_solution.png" alt="">
         </div>
-        <button v-motion-slide-right class="btn contact_btn">Contact Sales</button>
+        <router-link class="btn contact_btn" to="/form"> Contact
+            Sales</router-link>
     </div>
 </template>
 
@@ -114,7 +115,7 @@ p {
     box-shadow: none;
     text-transform: capitalize;
     font-size: 16px;
-    height: 60px;
+    padding: 20px 0;
     font-weight: 500;
     justify-content: center;
     align-items: center;

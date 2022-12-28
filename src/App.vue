@@ -66,6 +66,19 @@ nav {
   }
 }
 
+.vendor_hero_btn {
+  outline: none;
+  box-shadow: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  border: 1px solid #7750A1;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #F7EEFF;
+  color: #7750A1;
+  font-weight: 500;
+}
+
 h1 {
   font-family: Quentin;
   color: #7750A1;
@@ -86,5 +99,61 @@ h2 {
 @font-face {
   font-family: "Quentin";
   src: url("./assets/fonts/QuentinPro.ttf");
+}
+
+h1 {
+  font-family: Quentin;
+  color: #7750A1;
+  font-size: 70px;
+  line-height: 139.75%;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-family: Quentin;
+  color: #7750A1;
+  font-size: 48px;
+  line-height: 152.52%;
+  color: #7750A1;
+
+}
+
+@media screen and (max-width: 550px) {
+  h1 {
+    font-family: Quentin;
+    color: #7750A1;
+    font-size: 40px !important;
+    line-height: 139.75%;
+    letter-spacing: 0.02em;
+  }
+
+  h2 {
+    font-family: Quentin;
+    color: #7750A1;
+    font-size: 30px !important;
+    color: #7750A1;
+
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-family: Quentin;
+    color: #7750A1;
+    font-size: 70px;
+    line-height: 139.75%;
+    letter-spacing: 0.02em;
+    width: 100%;
+  }
+
+  h2 {
+    font-family: Quentin;
+    color: #7750A1;
+    font-size: 48px;
+    line-height: 152.52%;
+    color: #7750A1;
+    width: 100%;
+
+  }
 }
 </style>

@@ -6,7 +6,9 @@
         </div>
         <img class="web" src="../assets/atm_cards.svg" alt="">
         <img class="mobile" src="../assets/atm_cards_mobile.svg" alt="">
-        <button class="btn contact_btn">Contact Sales</button>
+
+        <router-link class="btn contact_btn" to="/form"> Contact
+            Sales</router-link>
     </div>
 </template>
 
@@ -25,7 +27,7 @@ export default {
     box-shadow: none;
     text-transform: capitalize;
     font-size: 16px;
-    height: 60px;
+    padding: 20px 0;
     font-weight: 500;
     justify-content: center;
     align-items: center;
@@ -41,6 +43,8 @@ export default {
 
 .pos_writeup {
     text-align: center;
+    width: 70%;
+    /* margin: 0 auto; */
 }
 
 .web {
@@ -58,6 +62,21 @@ export default {
 
     .mobile {
         display: block;
+    }
+
+    .contact_btn {
+        width: 80%;
+        margin: 0 auto;
+        background-color: #7750A1;
+        color: #ffffff;
+        outline: none;
+        box-shadow: none;
+        text-transform: capitalize;
+        font-size: 16px;
+        height: 60px;
+        font-weight: 500;
+        justify-content: center;
+        align-items: center;
     }
 }
 </style>

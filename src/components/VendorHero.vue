@@ -3,7 +3,9 @@
         <div v-motion-slide-left class="Hero_container">
             <h2>Accept Payments from customers with <span>Ease</span></h2>
             <p>Accept instant payments from your customers via POS, and cards.</p>
-            <button class="btn">Contact Sales</button>
+            <router-link class="btn vendor_hero_btn" to="/form"> Contact
+                Sales</router-link>
+            <!-- <button @click="showNewForm" class="btn" ></button> -->
         </div>
         <img v-motion-slide-right class="web" src="../assets/pos_img.svg" alt="">
         <img v-motion-slide-right class="mobile" src="../assets/pos_img_mobile.svg" alt="">
@@ -11,12 +13,36 @@
 </template>
 
 <script>
-export default {
+// import ContactForm from './ContactForm.vue';
 
+export default {
+    data() {
+        return {
+            showForm: false
+        }
+    },
+    methods: {
+        showNewForm() {
+            this.$router.push({ path: '/vendors' })
+        },
+    }
 }
 </script>
 
 <style scoped>
+.vendor_hero_btn {
+    outline: none;
+    box-shadow: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    border: 1px solid #7750A1;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #F7EEFF;
+    color: #7750A1;
+    font-weight: 500;
+}
+
 .web {
     display: block;
 }
@@ -25,18 +51,6 @@ export default {
     display: none;
 }
 
-.Hero_container button {
-    outline: none;
-    box-shadow: none;
-    text-transform: capitalize;
-    font-size: 16px;
-    border: 1px solid #7750A1;
-    width: 100%;
-    height: 60px;
-    background-color: #F7EEFF;
-    color: #7750A1;
-    font-weight: 500;
-}
 
 .Hero_container p {
     color: #ffffff;
