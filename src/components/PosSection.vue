@@ -4,8 +4,8 @@
             <h2>Pos for your business</h2>
             <p>Accept card payments via POS, print receipts for transactions and much more.</p>
         </div>
-        <img class="web" src="../assets/atm_cards.svg" alt="">
-        <img class="mobile" src="../assets/atm_cards_mobile.svg" alt="">
+        <img class="web" src="../assets/pos in hand 1.png" alt="">
+        <img class="mobile" src="../assets/pos in hand 1.png" alt="">
 
         <router-link class="btn contact_btn" to="/form"> Contact
             Sales</router-link>

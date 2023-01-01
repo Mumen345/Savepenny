@@ -2,7 +2,8 @@
     <div class="section_two">
         <div v-motion-slide-visible-once-left class="section_two_left">
             <h2>Payments designed with you in mind</h2>
-            <p class="sub_text">We design an app so easy to enable you carry out your transactions swiftly and on time.
+            <p class="sub_text">We designed an app so easy to enable you carry out your transactions swiftly and on
+                time.
                 It’s
                 so simple, the
                 pleasure is in the details.</p>

@@ -4,7 +4,7 @@
             <img src="../assets/logo_white.svg" alt="">
             <h2>Restrict access and be secured</h2>
             <p class="sub_text">Get instant and real-time notifications whenever there’s an activity on your card.
-                Temporarily freeze and unfreeze your card directly from the Grey app.</p>
+                Temporarily freeze and unfreeze your card directly from PurplePay .</p>
         </div>
     </div>
 </template>

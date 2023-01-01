@@ -4,14 +4,16 @@
         <br>
         <br>
         <br>
-        <div class="">
-            <router-link class="btn back_btn" to="/vendors"> Go back</router-link>
-        </div>
+
         <br>
         <div class="form_div">
+            <div class="">
+                <router-link class="btn back_btn" to="/vendors"> back</router-link>
+            </div>
             <h3 class="text-center mt-1 mb-5">Point of Sales (POS) Request Form <br> <small>Dear customer, kindly
                     complete this form to help us serve you better</small></h3>
             <form class="p-2">
+
                 <!-- 2 column grid layout with text inputs for the first and last names -->
                 <div class="row mb-4">
                     <div class="col">
