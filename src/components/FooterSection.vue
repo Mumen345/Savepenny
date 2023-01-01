@@ -63,7 +63,7 @@
                                     and Condition</a>
                             </li>
                             <li>
-                                <a class="text-white" href="/https://purplepayapp.com/aml-policy/">AAML Policy</a>
+                                <a class="text-white" href="/https://purplepayapp.com/aml-policy/">AML Policy</a>
                             </li>
                         </ul>
                     </div>
