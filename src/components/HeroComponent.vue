@@ -11,7 +11,7 @@
                 <p>Number 1 Payment Platform</p>
             </div>
             <h1 class="hero_heading">Forget the Rest, Get the <span>Best</span></h1>
-            <p class="hero_subtitle">Enjoy the <span class="purple_text">purplepay</span> of life and enjoy access to
+            <p class="hero_subtitle">Enjoy the <span class="purple_text">purpleway</span> of life and enjoy access to
                 financial services that are
                 tailored to your needs. We are the new standard in payment Services</p>
         </div>
