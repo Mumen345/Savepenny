@@ -16,8 +16,8 @@
             </div>
         </div>
         <div v-motion-slide-right class="hero_mockup">
-            <img class="web" src="../assets/cards_stacks.svg" alt="">
-            <img class="mobile" src="../assets/cards_stacks_mobile.svg" alt="">
+            <img class="web" src="../assets/Two_cards.svg" alt="">
+            <img class="mobile" src="../assets/Two_cards_mobile.svg" alt="">
         </div>
     </div>
 </template>

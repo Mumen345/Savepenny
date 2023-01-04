@@ -3,7 +3,7 @@
         <div v-motion-slide-left class="Hero_container">
             <h2>Accept Payments from customers with <span>Ease</span></h2>
             <p>Accept instant payments from your customers via POS, and cards.</p>
-            <router-link class="btn vendor_hero_btn" to="/form"> Contact
+            <router-link class="btn vendor_hero_btn" to="#"> Contact
                 Sales</router-link>
             <!-- <button @click="showNewForm" class="btn" ></button> -->
         </div>

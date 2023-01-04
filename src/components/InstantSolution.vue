@@ -30,7 +30,7 @@
             </div>
             <img class="web" v-motion-slide-right src="../assets/payment_solution.png" alt="">
         </div>
-        <router-link class="btn contact_btn" to="/form"> Contact
+        <router-link class="btn contact_btn" to="#"> Contact
             Sales</router-link>
     </div>
 </template>

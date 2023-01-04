@@ -5,7 +5,7 @@ import VendorView from "../views/VendorView.vue";
 import CareerView from "../views/CareerView.vue";
 import DocView from "../views/DocView.vue";
 import NotFound from "../views/NotFound.vue";
-import ContactForm from "../views/ContactForm.vue";
+// import ContactForm from "../views/ContactForm.vue";
 
 Vue.use(VueRouter);
 
@@ -35,11 +35,11 @@ const routes = [
     name: "notfound",
     component: NotFound,
   },
-  {
-    path: "/form",
-    name: "contactForm",
-    component: ContactForm,
-  },
+  // {
+  //   path: "/form",
+  //   name: "contactForm",
+  //   component: ContactForm,
+  // },
   {
     path: "/cards",
     name: "cards",
