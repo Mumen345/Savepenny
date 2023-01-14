@@ -7,8 +7,8 @@
         <img class="web" src="../assets/pos in hand 1.png" alt="">
         <img class="mobile" src="../assets/pos in hand 1.png" alt="">
 
-        <router-link class="btn contact_btn" to="#"> Contact
-            Sales</router-link>
+        <a class="btn contact_btn" href="https://business.purplepayapp.com/" target="_blank"> Contact
+            Sales</a>
     </div>
 </template>
 

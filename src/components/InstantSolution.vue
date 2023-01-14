@@ -30,8 +30,8 @@
             </div>
             <img class="web" v-motion-slide-right src="../assets/payment_solution.png" alt="">
         </div>
-        <router-link class="btn contact_btn" to="#"> Contact
-            Sales</router-link>
+        <a class="btn contact_btn" href="https://business.purplepayapp.com/" target="_blank"> Contact
+            Sales</a>
     </div>
 </template>
 
