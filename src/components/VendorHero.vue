@@ -3,8 +3,7 @@
         <div v-motion-slide-left class="Hero_container">
             <h2>Accept Payments from customers with <span>Ease</span></h2>
             <p>Accept instant payments from your customers via POS, and cards.</p>
-            <a class="btn vendor_hero_btn" href="https://business.purplepayapp.com/" target="_blank"> Contact
-                Sales</a>
+            <a class="btn vendor_hero_btn" href="https://business.purplepayapp.com/" target="_blank"> Get Started</a>
             <!-- <button @click="showNewForm" class="btn" ></button> -->
         </div>
         <img v-motion-slide-right class="web" src="../assets/pos_img.svg" alt="">

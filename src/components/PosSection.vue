@@ -7,8 +7,7 @@
         <img class="web" src="../assets/pos in hand 1.png" alt="">
         <img class="mobile" src="../assets/pos in hand 1.png" alt="">
 
-        <a class="btn contact_btn" href="https://business.purplepayapp.com/" target="_blank"> Contact
-            Sales</a>
+        <a class="btn contact_btn" href="https://business.purplepayapp.com/" target="_blank">Get Started</a>
     </div>
 </template>
 

@@ -40,7 +40,7 @@
                                 <router-link class="text-white " to="/careers">Career</router-link>
                             </li>
                             <li class="mb-3">
-                                <router-link class="text-white " to="/vendor">Vendor</router-link>
+                                <router-link class="text-white " to="/vendors">Vendor</router-link>
                             </li>
                         </ul>
                     </div>
