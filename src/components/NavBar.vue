@@ -31,9 +31,11 @@
 
 
                 <div class="d-flex align-items-center">
-                    <a class="btn btn-black px-3  me-3" href="#" role="button"><img src="../assets/googleplay_logo.svg"
-                            alt="" /> Play Store</a>
-                    <a class="btn btn-black px-3" href="#" role="button"><img src="../assets/apple_icon.svg" alt="" />
+                    <a class="btn btn-black px-3  me-3"
+                        href="https://play.google.com/store/apps/details?id=com.purplepay" role="button"><img
+                            src="../assets/googleplay_logo.svg" alt="" /> Play Store</a>
+                    <a class="btn btn-black px-3" href="https://apps.apple.com/ng/app/purplepay/id1548285634"
+                        role="button"><img src="../assets/apple_icon.svg" alt="" />
                         Apple Store</a>
                 </div>
             </div>

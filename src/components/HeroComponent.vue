@@ -16,8 +16,10 @@
                 tailored to your needs. We are the new standard in payment Services</p>
         </div>
         <div class="hero_btn_div">
-            <button class="btn me-3 hero_btn"><img src="../assets/googleplay_logo.svg" alt="" /> Play Store</button>
-            <button class="btn hero_btn_orange"><img src="../assets/bi_apple_orange.svg" alt="" /> Apple Store</button>
+            <a href="https://play.google.com/store/apps/details?id=com.purplepay" class="btn me-3 hero_btn"><img
+                    src="../assets/googleplay_logo.svg" alt="" /> Play Store</a>
+            <a href="https://apps.apple.com/ng/app/purplepay/id1548285634" class="btn hero_btn_orange"><img
+                    src="../assets/bi_apple_orange.svg" alt="" /> Apple Store</a>
         </div>
         <div class="hero_mockup">
             <img class="web" src="../assets/mockup.svg" alt="">

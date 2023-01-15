@@ -8,12 +8,16 @@
             <p class="section_tagline">Money talks, PurplePays.</p>
         </div>
         <div v-motion-slide-visible-right class="hero_btn_div2">
-            <button class="btn me-3 hero_btn"><img src="../assets/googleplay_logo.svg" alt="" /> Play Store</button>
-            <button class="btn hero_btn_orange"><img src="../assets/apple_icon.svg" alt="" /> Apple Store</button>
+            <a class="btn me-3 hero_btn" href="https://play.google.com/store/apps/details?id=com.purplepay"><img
+                    src="../assets/googleplay_logo.svg" alt="" /> Play Store</a>
+            <a href="https://apps.apple.com/ng/app/purplepay/id1548285634" class="btn hero_btn_orange"><img
+                    src="../assets/apple_icon.svg" alt="" /> Apple Store</a>
         </div>
         <div v-motion-slide-visible-bottom class="hero_btn_div_resp">
-            <button class="btn me-3 hero_btn"><img src="../assets/googleplay_logo.svg" alt="" /> Play Store</button>
-            <button class="btn hero_btn_orange"><img src="../assets/apple_icon.svg" alt="" /> Apple Store</button>
+            <a href="https://play.google.com/store/apps/details?id=com.purplepay" class="btn me-3 hero_btn"><img
+                    src="../assets/googleplay_logo.svg" alt="" /> Play Store</a>
+            <a href="https://apps.apple.com/ng/app/purplepay/id1548285634" class="btn hero_btn_orange"><img
+                    src="../assets/apple_icon.svg" alt="" /> Apple Store</a>
         </div>
     </div>
 </template>
