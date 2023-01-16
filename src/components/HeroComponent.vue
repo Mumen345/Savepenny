@@ -58,10 +58,11 @@ export default {
     text-transform: capitalize;
     font-size: 16px;
     width: 250px;
-    height: 60px;
+    padding: 15px;
     color: #FA9445;
     font-weight: 500;
     background-color: #fff6ee;
+
 }
 
 .hero_btn {
@@ -70,10 +71,11 @@ export default {
     font-size: 16px;
     border: 1px solid #7750A1;
     width: 250px;
-    height: 60px;
+    padding: 15px;
     background-color: #F7EEFF;
     color: #7750A1;
     font-weight: 500;
+
 
 }
 

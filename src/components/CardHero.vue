@@ -11,8 +11,10 @@
                     class="purple_text">purplepay</span> app to pay
                 for subscriptions or shop online with ease. </p>
             <div class="hero_btn_div_resp">
-                <button class="btn me-3 hero_btn"><img src="../assets/googleplay_logo.svg" alt="" /> Play Store</button>
-                <button class="btn hero_btn_orange"><img src="../assets/apple_icon.svg" alt="" /> Apple Store</button>
+                <a href="https://play.google.com/store/apps/details?id=com.purplepay" class="btn me-3 hero_btn"><img
+                        src="../assets/googleplay_logo.svg" alt="" /> Play Store</a>
+                <a href="https://apps.apple.com/ng/app/purplepay/id1548285634" class="btn hero_btn_orange"><img
+                        src="../assets/apple_icon.svg" alt="" /> Apple Store</a>
             </div>
         </div>
         <div v-motion-slide-right class="hero_mockup">
@@ -90,17 +92,17 @@ export default {
     padding: 0px 31px;
 }
 
-.hero_btn_orange {
+/* .hero_btn_orange {
     border: 1px solid #FA9445;
     box-shadow: none;
     text-transform: capitalize;
     font-size: 16px;
     width: 250px;
-    height: 60px;
+    padding: 15px;
     color: #FA9445;
     font-weight: 500;
     background-color: #fff6ee;
-}
+} */
 
 .hero_btn_orange {
     border: none;
@@ -108,22 +110,22 @@ export default {
     text-transform: capitalize;
     font-size: 16px;
     width: 250px;
-    height: 60px;
+    padding: 15px;
     color: #FFFFFF;
     font-weight: 500;
     background-color: #7750A1;
 }
 
-.hero_btn {
+/* .hero_btn {
     box-shadow: none;
     text-transform: capitalize;
     font-size: 16px;
     width: 250px;
-    height: 60px;
+    padding: 15px;
     background-color: #F7EEFF;
     color: #7750A1;
     font-weight: 500;
-}
+} */
 
 .hero_btn_div_resp {
     display: flex;
@@ -138,7 +140,7 @@ export default {
     font-size: 16px;
     border: 1px solid #7750A1;
     width: 250px;
-    height: 60px;
+    padding: 15px;
     background-color: #F7EEFF;
     color: #7750A1;
     font-weight: 500;

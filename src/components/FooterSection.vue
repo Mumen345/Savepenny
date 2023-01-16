@@ -18,10 +18,12 @@
 
                                     <!-- Twitter -->
                                     <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee"
-                                        href="#!" role="button"><i class="fab fa-twitter"></i></a>
+                                        href="https://twitter.com/Purplepay_app?t=bHlvbt_nCNLsJojjDIpwtA&s=09"
+                                        role="button"><i class="fab fa-twitter"></i></a>
                                     <!-- Instagram -->
                                     <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"
-                                        href="#!" role="button"><i class="fab fa-instagram"></i></a>
+                                        href="https://instagram.com/purplepay_app?igshid=YmMyMTA2M2Y=" role="button"><i
+                                            class="fab fa-instagram"></i></a>
                                 </section>
                             </li>
                         </ul>
@@ -55,15 +57,15 @@
                                 <a class="text-white " href="/docs">API Documentation</a>
                             </li>
                             <li class="mb-3">
-                                <a class="text-white " href="/https://purplepayapp.com/privacy-policy/">Privacy
+                                <a class="text-white " href="https://purplepayapp.com/privacy-policy/">Privacy
                                     Policy</a>
                             </li>
                             <li class="mb-3">
-                                <a class="text-white" href="/https://purplepayapp.com/terms-and-conditions/">Terms
+                                <a class="text-white" href="https://purplepayapp.com/terms-and-conditions/">Terms
                                     and Condition</a>
                             </li>
                             <li>
-                                <a class="text-white" href="/https://purplepayapp.com/aml-policy/">AML Policy</a>
+                                <a class="text-white" href="https://purplepayapp.com/aml-policy/">AML Policy</a>
                             </li>
                         </ul>
                     </div>

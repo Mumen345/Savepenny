@@ -99,7 +99,7 @@ export default {
     text-transform: capitalize;
     font-size: 16px;
     width: 250px;
-    height: 60px;
+    padding: 15px;
     color: #FFFFFF;
     font-weight: 500;
     background-color: #FA9445;
@@ -109,8 +109,8 @@ export default {
     box-shadow: none;
     text-transform: capitalize;
     font-size: 16px;
+    padding: 15px;
     width: 250px;
-    height: 60px;
     background-color: #F7EEFF;
     color: #7750A1;
     font-weight: 500;
