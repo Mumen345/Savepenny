@@ -57,16 +57,16 @@
                                 <a class="text-white " href="/docs">API Documentation</a>
                             </li>
                             <li class="mb-3">
-                                <a class="text-white " href="https://purplepayapp.com/privacy-policy/">Privacy
-                                    Policy</a>
+                                <router-link class="text-white " to="/privacypolicy">Privacy
+                                    Policy</router-link>
                             </li>
                             <li class="mb-3">
-                                <a class="text-white" href="https://purplepayapp.com/terms-and-conditions/">Terms
-                                    and Condition</a>
+                                <router-link class="text-white " to="/termsandconditions">Terms
+                                    and Condition</router-link>
                             </li>
-                            <li>
-                                <a class="text-white" href="https://purplepayapp.com/aml-policy/">AML Policy</a>
-                            </li>
+                            <!-- <li class="mb-3">
+                                <router-link class="text-white " to="/amlpolicy">AML Policy</router-link>
+                            </li> -->
                         </ul>
                     </div>
                     <!--Grid column-->

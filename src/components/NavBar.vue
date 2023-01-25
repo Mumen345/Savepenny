@@ -51,6 +51,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.nav-link {
+    color: #232323;
+    // font-weight: 500;
+}
+
 .nav_container {
     max-width: 1440px !important;
     margin: 0 auto;
