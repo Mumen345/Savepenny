@@ -1,13 +1,15 @@
 <template>
     <div class="forth_div_container">
-        <div v-motion-slide-visible-once-left class="forthDiv_text">
-            <h2>Be Loved, Be Purple</h2>
-            <p class="sub_text">We’re always here for you. Drop us a tweet, a comment on instagram, or send us an email.
-                We’ll always be here
-                to attend to your needs, no matter how you decide to contact us.</p>
-        </div>
-        <img v-motion-slide-visible-once-right class="love_img" src="../assets/purple_love.png" alt="">
-        <img class="love_img_mobile" src="../assets/purple_love_mobile.png" alt="">
+      <img src="../assets/shield.svg" alt="">
+      <div>
+        <h4>Your Savings, Always Secure</h4>
+        <p>PockieSafe operates under a Financial Services Provider (FSP) License 2025/128579/07, with full POPIA compliance and encrypted data protection.</p>
+      </div>
+      <div class="pills_container">
+        <div class="pills">Bank-Grade Encryption</div>
+        <div class="pills">POPIA Compliant</div>
+        <div class="pills">FSP Certified</div>
+      </div>
     </div>
 </template>
 
@@ -29,33 +31,53 @@ export default {
 .love_img_mobile {
     display: none;
 }
+h4 {
+    font-size: 24px;
+    color: #12121C;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
 
+}
+p{
+    font-size: 15px;
+    color: #6F6F7B;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+}
 .forth_div_container {
-    background-color: #FAF6FF;
+    background-color: #F6F8FF;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 70px;
-    gap: 50px;
-    margin-top: 40px;
+    padding: 96px 25%;
+    gap: 24px;
+    text-align: center;
+}
+.pills_container{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.pills {
+    color: #5856D6;
+    background: #ECEBFF;
+    border: 1px solid #C4C2F3;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    line-height: 16px;
+    width: auto;
 }
 
-@media screen and (max-width: 430px) {
-    .love_img {
-        display: none;
-    }
-
-    .love_img_mobile {
-        display: block;
-    }
-}
 
 @media screen and (max-width: 990px) {
     .forth_div_container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+       
+    padding: 96px 15%;
     }
 
     .sub_text {
@@ -73,5 +95,24 @@ export default {
         align-items: center;
         text-align: center;
     }
+}
+
+@media screen and (max-width: 658px) {
+      .forth_div_container {
+    padding: 96px 20px;
+    }
+
+}
+@media screen and (max-width: 484px) {
+    .pills {
+        width: auto !important;
+    }
+    .pills_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
 }
 </style>

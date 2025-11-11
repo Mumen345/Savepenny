@@ -1,17 +1,26 @@
 <template>
     <div class="section_two">
-        <div v-motion-slide-visible-once-left class="section_two_left">
-            <h2>Payments designed with you in mind</h2>
-            <p class="sub_text">We designed an app so easy to enable you carry out your transactions swiftly and on
-                time.
-                It’s
-                so simple, the
-                pleasure is in the details.</p>
+        <div class="section_two_left primary_orange">
+            <img src="../assets/group_savings.svg" alt="">
+            <div>
+                <h4 class="text-white">Stokvel — Group Savings Made Simple</h4>
+                <p class="sub_text">
+                    Create or join savings groups with friends and manage contributions transparently.
+                </p>
+            </div>
+            <a class="text-white " href="#">Learn More</a>
         </div>
-        <img v-motion-slide-visible-once-right class="web" src="../assets/second_section.png" alt="">
-        <img v-motion-slide-visible-once-right class="mobile" src="../assets/second_section_mobile.png" alt="">
+        <div class="section_two_left primary_green">
+            <img src="../assets/walet.svg" alt="">
+            <div>
+                <h4 class="text-white">FlexRand — Save at Your Pace</h4>
+                <p>Flexible savings that let you deposit or withdraw anytime, without penalties.</p>
+            </div>
+            <a class="text-white" href="#">Learn More</a>
+        </div>
     </div>
 </template>
+<!-- v-motion-slide-visible-once-left  -->
 
 <script>
 export default {
@@ -29,46 +38,67 @@ export default {
 }
 
 .sub_text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 40px;
-    color: #404040;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
 }
 
 .section_two {
-    background-color: #FAF6FF;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 70px;
+    padding: 96px 17%;
     gap: 30px;
-    margin-top: 40px;
 }
 
 .section_two_left {
-    width: 503px;
+    width: 100%;
+    padding: 32px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: space-around;
+    gap: 12px;
+    height: 300px;
+
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1200px) {
     .section_two {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 40px;
+        justify-content: space-around;
+        /* align-items: center; */
+        padding: 96px 10%;
         gap: 30px;
-        width: 100%;
-
     }
-
+}
+@media screen and (max-width: 990px) {
+    .section_two {
+        padding: 96px 20px;
+        
+    }
+    
+    
     .section_two_left {
         width: 100%;
         margin: 0 auto;
-        text-align: center;
-
+        /* text-align: center; */
+        
     }
 }
 
+@media screen and (max-width: 740px) {
+    .section_two {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 56px 20px;
+    }
+
+}
 @media screen and (max-width: 500px) {
     .mobile {
         display: block;

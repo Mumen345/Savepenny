@@ -1,23 +1,10 @@
 <template>
     <div class="fifth_section_container">
-        <div v-motion-slide-visible-top class="fifth_section_writeup">
-            <img class="section_img" src="../assets/logo_white.svg" alt="">
-            <img class="section_img2" src="../assets/main-logo.svg" alt="">
-            <p class="fifth_section_header">Your global money is here!</p>
-
-            <p class="section_tagline">Money talks, PurplePays.</p>
-        </div>
-        <div v-motion-slide-visible-right class="hero_btn_div2">
-            <a class="btn me-3 hero_btn" href="https://play.google.com/store/apps/details?id=com.purplepay"><img
-                    src="../assets/googleplay_logo.svg" alt="" /> Play Store</a>
-            <a href="https://apps.apple.com/ng/app/purplepay/id1548285634" class="btn hero_btn_orange"><img
-                    src="../assets/apple_icon.svg" alt="" /> Apple Store</a>
-        </div>
-        <div v-motion-slide-visible-bottom class="hero_btn_div_resp">
-            <a href="https://play.google.com/store/apps/details?id=com.purplepay" class="btn me-3 hero_btn"><img
-                    src="../assets/googleplay_logo.svg" alt="" /> Play Store</a>
-            <a href="https://apps.apple.com/ng/app/purplepay/id1548285634" class="btn hero_btn_orange"><img
-                    src="../assets/apple_icon.svg" alt="" /> Apple Store</a>
+        <h1 class="text-white">Be among the first to experience South Africa’s next generation of savings.</h1>
+        <div class="download_container">
+            <a class="" href="#" role="button"><img src="../assets/appstore.svg" alt="" /> </a>
+            <a class="" href="#" role="button"><img src="../assets/googleplay.svg" alt="" />
+            </a>
         </div>
     </div>
 </template>
@@ -29,180 +16,56 @@ export default {
 </script>
 
 <style scoped>
-.hero_btn_div_resp {
-    display: none;
+.download_container {
+    display: flex;
+    gap: 10px;
 }
 
-.section_img {
-    display: block;
-}
+h1 {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    width: 900px;
+    text-align: center;
 
-.section_img2 {
-    display: none;
 }
 
 .fifth_section_container {
-    background-image: url("../assets/download.svg");
-    height: 813px;
+    /* background-image: url("../assets/download_bg.png"); */
+    background-image: linear-gradient(to right, #5856D6, #6E6BFF);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 100%;
+    width: 100% !important;
+    max-width: 2000px;
     margin: 60px auto 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding: 96px;
+    gap: 20px;
+    
 }
 
-.fifth_section_writeup {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.fifth_section_header {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 64px;
-    /* identical to box height */
-    font-family: Quentin;
-    letter-spacing: 0.05em;
-    text-transform: capitalize;
-    color: #ffffff;
-}
-
-.section_tagline {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #FFFFFF;
-}
-
-.hero_btn_div2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    flex-direction: row;
-
-}
-
-.hero_btn_orange {
-    border: none;
-    box-shadow: none;
-    text-transform: capitalize;
-    font-size: 16px;
-    width: 250px;
-    padding: 15px;
-    color: #FFFFFF;
-    font-weight: 500;
-    background-color: #FA9445;
-}
-
-.hero_btn {
-    box-shadow: none;
-    text-transform: capitalize;
-    font-size: 16px;
-    padding: 15px;
-    width: 250px;
-    background-color: #F7EEFF;
-    color: #7750A1;
-    font-weight: 500;
-}
-
-@media screen and (max-width: 700px) {
-    .hero_btn_div2 {
-        display: none;
-        flex-direction: column;
-        gap: 30px;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
-        width: 80%;
-
-    }
-
-    .hero_btn_orange {
-        border: none;
-        box-shadow: none;
-        text-transform: capitalize;
-        font-size: 16px;
-        width: 100%;
-        height: 60px;
-        color: #FFFFFF;
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 0.2px;
         font-weight: 500;
-        background-color: #FA9445;
+        width: 100% !important;
+        text-align: center;
+        
     }
+}
 
-    .hero_btn {
-        box-shadow: none;
-        text-transform: capitalize;
-        font-size: 16px;
-        border: 1px solid #7750A1;
-        width: 100%;
-        height: 60px;
-        background-color: #F7EEFF;
-        color: #7750A1;
-        font-weight: 500;
-    }
 
+@media screen and (max-width: 600px) {
     .fifth_section_container {
-        background-image: none;
-        height: auto;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        width: 100%;
-        margin: 60px auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
+        padding: 96px 15px;
+        
     }
-
-    .hero_btn_div_resp {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        width: 80%;
-    }
-
-    .fifth_section_header {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 64px;
-        /* identical to box height */
-        font-family: Quentin;
-        letter-spacing: 0.05em;
-        text-transform: capitalize;
-        color: #7750A1;
-        text-align: center;
-    }
-
-    .section_tagline {
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 29px;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: #7750A1;
-        text-align: center;
-    }
-
-    .section_img {
-        display: none;
-    }
-
-    .section_img2 {
-        display: block;
-    }
-
+    
 }
 </style>

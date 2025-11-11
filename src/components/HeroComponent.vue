@@ -1,222 +1,180 @@
 <template>
     <div class="hero_container">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="hero_writeup">
-            <div class="s_btn">
-                <img src="../assets/noto_star.svg" alt="">
-                <p>Number 1 Payment Platform</p>
+        <div class="left_container">
+            <div class="left_writeup">
+                <h1>
+                    Save Smarter. Live Better.
+                </h1>
+                <p class="left_paragraph">Join transparent Stokvels with friends or build your own flexible savings plan
+                    with FlexRand. Powered by PockieSafe.</p>
             </div>
-            <h1 class="hero_heading">Forget the Rest, Get the <span>Best</span></h1>
-            <p class="hero_subtitle">Enjoy the <span class="purple_text">purpleway</span> of life and enjoy access to
-                financial services that are
-                tailored to your needs. We are the new standard in payment Services</p>
+            <div class="button_div">
+                <div class="primary_btn">Get the app</div>
+                <div class="secondary_btn">Explore features</div>
+            </div>
         </div>
-        <div class="hero_btn_div">
-            <a href="https://play.google.com/store/apps/details?id=com.purplepay" class="btn me-3 hero_btn"><img
-                    src="../assets/googleplay_logo.svg" alt="" /> Play Store</a>
-            <a href="https://apps.apple.com/ng/app/purplepay/id1548285634" class="btn hero_btn_orange"><img
-                    src="../assets/bi_apple_orange.svg" alt="" /> Apple Store</a>
+        <div class="">
+            <img class="web_mockup" src="../assets/mockup.png" alt="">
+            <img class="mobile_mockup" src="../assets/mockup_mobile.png" alt="">
         </div>
-        <div class="hero_mockup">
-            <img class="web" src="../assets/mockup.svg" alt="">
-            <img class="mobile" src="../assets/mockup_mobile.svg" alt="">
-        </div>
-        <h2 class="hero_slogan">Money talks, PurplePays!</h2>
     </div>
 </template>
-  
-  </template>
-  
+
+
 <script>
 export default {
 
 }
 </script>
-  
+
 <style scoped>
-.mobile {
+.mobile_mockup {
     display: none;
 }
 
-.web {
-    display: block;
-}
-
-.hero_mockup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero_btn_orange {
-    border: 1px solid #FA9445;
-    box-shadow: none;
-    text-transform: capitalize;
-    font-size: 16px;
-    width: 250px;
-    padding: 15px;
-    color: #FA9445;
-    font-weight: 500;
-    background-color: #fff6ee;
-
-}
-
-.hero_btn {
-    box-shadow: none;
-    text-transform: capitalize;
-    font-size: 16px;
-    border: 1px solid #7750A1;
-    width: 250px;
-    padding: 15px;
-    background-color: #F7EEFF;
-    color: #7750A1;
-    font-weight: 500;
-
-
-}
-
-.hero_btn_div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-
-}
-
-.hero_subtitle {
-    text-align: center;
-    width: 70%;
-    letter-spacing: 0.02em;
-    font-size: 16px;
-    line-height: 258.5%;
-    /* margin: 30px auto; */
-
-}
-
-.s_btn p {
-    margin-top: 0;
-    margin-bottom: 0rem;
-    font-size: 12px;
-    font-weight: 500;
-    font-size: 14.5488px;
-    line-height: 178.5%;
-    color: #7750A1;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
-
-.s_btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 10px;
-    border: 2px dashed #7750A1;
-    padding: 7px 20px;
-    background-color: #F7EEFF;
-}
-
-.hero_writeup {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    flex-direction: column;
+.left_container {
+    width: 80%;
     margin: 0 auto;
-    gap: 20px;
 }
 
-.hero_heading span {
-    background: #FA9445;
-    transform: matrix(1, 0.04, -0.04, 1, 0, 0);
+.left_writeup {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h1 {
     color: #ffffff;
-    padding: 0px 31px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 56px;
+    letter-spacing: 0.2px;
 }
 
-.hero_heading {
-    text-align: center;
-}
+h2 {
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 152.52%;
 
-.purple_text {
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: #FA9445;
-    text-align: center;
-}
-
-.hero_slogan {
-    font-size: 36px;
-    line-height: 57px;
-    letter-spacing: 0.05em;
-    font-family: Quentin;
-    color: #FA9445;
-    text-align: center;
 }
 
 .hero_container {
-    background-image: url("../assets/Hero_bg.svg");
+    background-image: url("../assets/Hero_bg.jpg");
     background-size: cover;
-    height: 1300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 0 18%;
+    align-items: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    /* margin-top: 65px; */
+
+
+}
+
+.button_div {
+    display: flex;
+    width: 100%;
+    gap: 12px;
+}
+
+.left_paragraph {
+    width: 100%;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-weight: 400 !important;
+}
+
+@media screen and (max-width: 2000px) {}
+
+@media screen and (max-width: 1440px) {
+    .hero_container {
+        width: 100%;
+        padding: 0 10%;
+
+    }
+
+    .left_writeup {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .hero_container {
+        margin-top: 65px;
+        padding: 10%;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
 
 }
 
 @media screen and (max-width: 1000px) {
-    .hero_container {
-        background-image: none;
-        height: auto;
-        width: 100%;
-    }
-
-    .hero_subtitle {
-        text-align: center;
-        width: 100%;
-        letter-spacing: 0.02em;
-        font-size: 16px;
-        line-height: 258.5%;
-        /* margin: 30px auto; */
-
-    }
-
-    .hero_writeup {
+    .hero_btn_div {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90%;
+        margin-top: 30px;
         flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .left_container {
+        width: 80%;
         margin: 0 auto;
-        gap: 20px;
     }
 
-    @media screen and (max-width: 500px) {
-        .mobile {
-            display: block;
-        }
+    h1 {
+        width: 400px;
+        margin: 0 auto;
+        font-size: 40px;
+        text-align: center;
+    }
+}
 
-        .web {
-            display: none;
-        }
-
-        .hero_btn {
-            margin-right: 0rem !important;
-
-        }
+@media screen and (max-width: 550px) {
+    .left_container {
+        width: 100%;
+        margin: 0 auto;
     }
 
-    @media screen and (max-width: 1000px) {
-        .hero_btn_div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 30px;
-            flex-direction: column;
-            gap: 30px;
-
-        }
+    h1 {
+        width: 100%;
+        font-size: 40px;
+        text-align: center;
     }
+
+    .mobile_mockup {
+        display: block;
+    }
+    .web_mockup {
+        display: none;
+    }
+    .hero_container {
+        padding: 20% 25px;
+    }
+   .button_div {
+    display: flex;
+    width: 100%;
+    gap: 12px;
+    flex-direction: column;
+}
 }
 </style>

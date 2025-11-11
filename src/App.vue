@@ -17,35 +17,52 @@ export default {
 </script>
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 1600px !important;
+  max-width: 2000px !important;
   margin: 0 auto;
   width: 100%;
 
 }
 
 .primary_color {
-  background-color: #7750A1;
+  background-color: #5856D6;
   color: #ffffff !important;
+}
+.primary_orange {
+background: #FF7A00;
+color: #ffffff;
+}
+.primary_green {
+background: #00BFA6;
+color: #ffffff;
 }
 
 .primary_btn {
-  background-color: #7750A1;
+  background-color: #5856D6;
   color: #ffffff !important;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: medium;
   outline: none;
   border: none;
   padding: 15px 20px;
-  border-radius: 7px;
-
+  border-radius: 14px;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  
 }
 
 .secondary_btn {
-  background-color: none;
-  color: #7750A1;
+  background-color: #ffffff;
+  color: #5856D6;
+  border: 1px solid 5856D6;
+  padding: 15px 20px;
+  text-align: center;
+  font-weight: 700;
+border-radius: 14px;
+width: 100%;
 
 }
 
@@ -59,101 +76,25 @@ nav {
     text-transform: capitalize !important;
 
     &.router-link-exact-active {
-      color: #7750A1;
+      color: #5856D6;
       font-weight: bold;
       text-decoration: underline;
     }
   }
 }
 
-.vendor_hero_btn {
-  outline: none;
-  box-shadow: none;
-  text-transform: capitalize;
-  font-size: 16px;
-  border: 1px solid #7750A1;
-  width: 100%;
-  padding: 15px 0;
-  background-color: #F7EEFF;
-  color: #7750A1;
-  font-weight: 500;
-}
-
-h1 {
-  font-family: Quentin;
-  color: #7750A1;
-  font-size: 70px;
-  line-height: 139.75%;
-  letter-spacing: 0.02em;
-}
-
-h2 {
-  font-family: Quentin;
-  color: #7750A1;
-  font-size: 48px;
-  line-height: 152.52%;
-  color: #7750A1;
-
-}
-
-@font-face {
-  font-family: "Quentin";
-  src: url("./assets/fonts/QuentinPro.ttf");
-}
-
-h1 {
-  font-family: Quentin;
-  color: #7750A1;
-  font-size: 70px;
-  line-height: 139.75%;
-  letter-spacing: 0.02em;
-}
-
-h2 {
-  font-family: Quentin;
-  color: #7750A1;
-  font-size: 48px;
-  line-height: 152.52%;
-  color: #7750A1;
-
-}
-
 @media screen and (max-width: 550px) {
-  h1 {
-    font-family: Quentin;
-    color: #7750A1;
-    font-size: 40px !important;
-    line-height: 139.75%;
-    letter-spacing: 0.02em;
-  }
-
-  h2 {
-    font-family: Quentin;
-    color: #7750A1;
-    font-size: 30px !important;
-    color: #7750A1;
-
-  }
+  .primary_btn {
+  font-size: 14px;
+  font-weight: 500;
+  
 }
 
-@media screen and (max-width: 700px) {
-  h1 {
-    font-family: Quentin;
-    color: #7750A1;
-    font-size: 70px;
-    line-height: 139.75%;
-    letter-spacing: 0.02em;
-    width: 100%;
-  }
+.secondary_btn {
+  font-size: 14px;
+  font-weight: 500;
 
-  h2 {
-    font-family: Quentin;
-    color: #7750A1;
-    font-size: 48px;
-    line-height: 152.52%;
-    color: #7750A1;
-    width: 100%;
-
-  }
 }
+}
+
 </style>
