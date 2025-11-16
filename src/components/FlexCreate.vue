@@ -1,25 +1,22 @@
 <template>
     <div>
         <div class="create_container">
-            <img src="../assets/mockup3.png" alt="">
+            <img src="../assets/flex_mockup2.png" alt="">
             <div class="right_container">
                 <div>
-                    <h2>Create a Stokvel in Minutes.</h2>
-                    <p>Set up your group rules, define contribution amounts, and invite friends instantly — all within
-                        the
-                        app.</p>
+                    <h2>Smarter Saving. Greater Freedom.</h2>
+                    <p>FlexRand gives you the power to grow your savings without rigid rules. Earn returns, withdraw instantly, and save in your own rhythm.</p>
                 </div>
                 <div class="orange_button">
-                    <a href="#">Get the App</a>
+                    <a href="#">Open FlexRand Account</a>
                 </div>
             </div>
         </div>
         <div class="forth_div_container">
-            <img src="../assets/orange_shield.svg" alt="">
+            <img src="../assets/green_shield.svg" alt="">
             <div>
-                <h4>Your Savings, Always Secure</h4>
-                <p>PockieSafe operates under a Financial Services Provider (FSP) License 2025/128579/07, with full POPIA
-                    compliance and encrypted data protection.</p>
+                <h4>Your Funds, Always Secure.</h4>
+                <p>FlexRand operates under our Financial Services Provider License (FSP 2025/128579/07), ensuring POPIA compliance and encrypted transactions.</p>
             </div>
             <div class="pills_container">
                 <div class="pills">POPIA Compliant</div>
@@ -28,7 +25,7 @@
             </div>
         </div>
           <div class="fifth_section_container">
-        <h1 class="text-white">Start your Stokvel journey today. Saving together has never been this easy.</h1>
+        <h1 class="text-white">Start saving your way with FlexRand. Freedom meets growth.</h1>
         <div class="download_container">
             <a class="" href="#" role="button"><img src="../assets/appstore.svg" alt="" /> </a>
             <a class="" href="#" role="button"><img src="../assets/googleplay.svg" alt="" />
@@ -67,7 +64,7 @@ h2 {
 }
 
 .orange_button {
-    background: linear-gradient(to right, #FF7A00, #FF9A30);
+    background: linear-gradient(to right, #00BFA6, #33D1B9);
     color: #ffffff;
     padding: 15px;
     border-radius: 20px;
@@ -145,7 +142,7 @@ h4 {
 }
 
 .forth_div_container {
-    background-color: #FFF6EC;
+    background-color: #E6FAF7;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,9 +159,9 @@ h4 {
 }
 
 .pills {
-    color: #FF7A00;
-    background: #FFF3E4;
-    border: 1px solid #F5DAC2;
+    color: #00BFA6;
+    background: #E6FAF7;
+    border: 1px solid #C8F3EB;
     padding: 6px 12px;
     border-radius: 20px;
     font-size: 13px;
@@ -235,7 +232,7 @@ h1 {
 
 .fifth_section_container {
     /* background-image: url("../assets/download_bg.png"); */
-    background-image: linear-gradient(to right, #FF7A00, #FF9A30);
+    background-image: linear-gradient(to right, #00BFA6, #33D1B9);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

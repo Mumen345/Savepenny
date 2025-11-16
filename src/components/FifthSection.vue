@@ -39,7 +39,7 @@ h1 {
     background-position: center center;
     width: 100% !important;
     max-width: 2000px;
-    margin: 60px auto 0;
+    margin: auto 0;
     display: flex;
     flex-direction: column;
     align-items: center;

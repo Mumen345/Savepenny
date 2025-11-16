@@ -1,21 +1,26 @@
 <template>
     <div>
-        <CareerHero />
-        <FindJobs />
+        <FlexFirst />
+        <FlexSecond />
+        <FlexWorks />
+        <FlexCreate />
         <FooterSection />
     </div>
 </template>
+  
 
 <script>
-import CareerHero from '@/components/CareerHero.vue';
-import FindJobs from '@/components/FindJobs.vue';
+import FlexFirst from '@/components/FlexFirst.vue';
+import FlexSecond from '@/components/FlexSecond.vue';
+import FlexWorks from '@/components/FlexWorks.vue';
+import FlexCreate from '@/components/FlexCreate.vue';
 import FooterSection from '@/components/FooterSection.vue';
 
 export default {
-    components: { CareerHero, FooterSection, FindJobs }
+    components: { FlexFirst, FlexSecond,FlexWorks, FlexCreate, FooterSection }
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>

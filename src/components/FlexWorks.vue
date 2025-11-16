@@ -1,26 +1,26 @@
 <template>
     <div class="works_container">
-        <h2>How Stokvel Works</h2>
+        <h2>How FlexRand Works</h2>
         <div class="step_container">
             <div class="steps">
                 <div class="number_circle">1</div>
                 <div class="content">
-                    <h6>Create or Join a Group</h6>
-                    <p>Invite members and set rules.</p>
+                    <h6>Fund Your Wallet</h6>
+                    <p>Deposit money in rands using your linked bank or wallet.</p>
                 </div>
             </div>
             <div class="steps">
                 <div class="number_circle">2</div>
                 <div class="content">
-                    <h6>Contribute Regularly</h6>
-                    <p>Deposit through your linked wallet or bank.</p>
+                    <h6>Earn Daily Returns</h6>
+                    <p>Your balance grows automatically as long as it stays active.</p>
                 </div>
             </div>
             <div class="steps">
                 <div class="number_circle">3</div>
                 <div class="content">
-                    <h6>Receive Rotational Payouts</h6>
-                    <p>Funds are distributed securely to members per cycle.</p>
+                    <h6>Withdraw Anytime</h6>
+                    <p>Access your funds instantly whenever you need them.</p>
                 </div>
             </div>
         </div>
@@ -44,10 +44,10 @@ export default {
 }
 
 .number_circle {
-    color: #FF7A00;
+    color: #00BFA6;
     font-size: 18px;
     font-weight: 700;
-    background: #FFF3E4;
+    background: #E6FAF7;
     height: 40px;
     width: 40px;
     display: flex;
