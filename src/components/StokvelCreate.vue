@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="forth_div_container">
-            <img src="../assets/shield.svg" alt="">
+            <img src="../assets/orange_shield.svg" alt="">
             <div>
                 <h4>Your Savings, Always Secure</h4>
                 <p>PockieSafe operates under a Financial Services Provider (FSP) License 2025/128579/07, with full POPIA
@@ -27,6 +27,14 @@
                 <div class="pills">FSP Certified</div>
             </div>
         </div>
+          <div class="fifth_section_container">
+        <h1 class="text-white">Start your Stokvel journey today. Saving together has never been this easy.</h1>
+        <div class="download_container">
+            <a class="" href="#" role="button"><img src="../assets/appstore.svg" alt="" /> </a>
+            <a class="" href="#" role="button"><img src="../assets/googleplay.svg" alt="" />
+            </a>
+        </div>
+    </div>
     </div>
 
 </template>
@@ -137,7 +145,7 @@ h4 {
 }
 
 .forth_div_container {
-    background-color: #F6F8FF;
+    background-color: #FFF6EC;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,9 +162,9 @@ h4 {
 }
 
 .pills {
-    color: #5856D6;
-    background: #ECEBFF;
-    border: 1px solid #C4C2F3;
+    color: #FF7A00;
+    background: #FFF3E4;
+    border: 1px solid #F5DAC2;
     padding: 6px 12px;
     border-radius: 20px;
     font-size: 13px;
@@ -208,5 +216,58 @@ h4 {
         align-items: center;
         gap: 12px;
     }
+}
+// Fifth section
+download_container {
+    display: flex;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    width: 900px;
+    text-align: center;
+
+}
+
+.fifth_section_container {
+    /* background-image: url("../assets/download_bg.png"); */
+    background-image: linear-gradient(to right, #FF7A00, #FF9A30);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100% !important;
+    max-width: 2000px;
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px;
+    gap: 20px;
+    
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 0.2px;
+        font-weight: 500;
+        width: 100% !important;
+        text-align: center;
+        
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .fifth_section_container {
+        padding: 96px 15px;
+        
+    }
+    
 }
 </style>
