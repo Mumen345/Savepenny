@@ -13,7 +13,7 @@
   
 
 <script>
-import VendorHero from '@/components/VendorHero.vue';
+import VendorHero from '@/components/PageSection.vue';
 import InstantSolution from '@/components/InstantSolution.vue';
 import FifthSection from '@/components/FifthSection.vue';
 import PosSection from '@/components/PosSection.vue';

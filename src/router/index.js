@@ -1,9 +1,10 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import VendorView from "../views/VendorView.vue";
-import CareerView from "../views/CareerView.vue";
-import DocView from "../views/DocView.vue";
+import Stokvel from "../views/StokvelView.vue";
+import FlexrandView from "../views/FlexrandView.vue";
+import SecurityView from "../views/SecurityView.vue";
+import FaqView from "../views/FaqView.vue";
 import NotFound from "../views/NotFound.vue";
 import PrivacyPolicy from "../views/PrivacyPolicy.vue";
 import TermsandConditions from "../views/TermsandConditions.vue";
@@ -19,19 +20,24 @@ const routes = [
     component: HomeView,
   },
   {
-    path: "/vendors",
-    name: "vendors",
-    component: VendorView,
+    path: "/stokvel",
+    name: "stokvel",
+    component: Stokvel,
   },
   {
-    path: "/careers",
-    name: "careers",
-    component: CareerView,
+    path: "/flexrand",
+    name: "flexrand",
+    component: FlexrandView,
   },
   {
-    path: "/docs",
-    name: "docs",
-    component: DocView,
+    path: "/security",
+    name: "security",
+    component: SecurityView,
+  },
+  {
+    path: "/faq",
+    name: "faq",
+    component: FaqView,
   },
   {
     path: "/privacypolicy",

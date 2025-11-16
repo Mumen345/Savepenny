@@ -16,27 +16,26 @@
 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item ">
-                        <router-link class="nav-link" to="/cards">Cards</router-link>
+                        <router-link class="nav-link" to="/stokvel">Stokvel</router-link>
                     </li>
                     <li class="nav-item ">
-                        <router-link class="nav-link" to="/vendors">vendors</router-link>
+                        <router-link class="nav-link" to="/flexrand">FlexRand</router-link>
                     </li>
                     <li class="nav-item ">
-                        <router-link class="nav-link" to="/careers">Careers</router-link>
+                        <router-link class="nav-link" to="/security">Security</router-link>
                     </li>
                     <li class="nav-item ">
-                        <router-link class="nav-link" to="/docs">API Documentation</router-link>
+                        <router-link class="nav-link" to="/faq">FAQs</router-link>
                     </li>
                 </ul>
 
 
                 <div class="d-flex align-items-center">
-                    <a class="btn btn-black px-3  me-3"
-                        href="https://play.google.com/store/apps/details?id=com.purplepay" role="button"><img
-                            src="../assets/googleplay_logo.svg" alt="" /> Play Store</a>
-                    <a class="btn btn-black px-3" href="https://apps.apple.com/ng/app/purplepay/id1548285634"
-                        role="button"><img src="../assets/apple_icon.svg" alt="" />
-                        Apple Store</a>
+                    <div class="download_container">
+                        <a class="" href="#" role="button"><img src="../assets/appstore.svg" alt="" /> </a>
+                        <a class="" href="#" role="button"><img src="../assets/googleplay.svg" alt="" />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

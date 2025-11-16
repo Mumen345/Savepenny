@@ -83,6 +83,11 @@ nav {
   }
 }
 
+.download_container {
+    display: flex;
+    gap: 10px;
+}
+
 @media screen and (max-width: 550px) {
   .primary_btn {
   font-size: 14px;
@@ -96,5 +101,11 @@ nav {
 
 }
 }
+.button_div {
+    display: flex;
+    width: 100%;
+    gap: 12px;
+}
+
 
 </style>
