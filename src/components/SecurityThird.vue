@@ -1,27 +1,38 @@
 <template>
     <div class="works_container">
-        <h2>How FlexRand Works</h2>
+        <h2>How We Protect You</h2>
         <div class="step_container">
             <div class="steps">
                 <div class="number_circle">1</div>
                 <div class="content">
-                    <h6>Fund Your Wallet</h6>
-                    <p>Deposit money in rands using your linked bank or wallet.</p>
+                    <h6>Multi-Factor Authentication</h6>
+                    <p>Every sign-in and transaction is verified via SMS or device trust.</p>
                 </div>
+                <img class="steps_img" src="../assets/circle_lock.svg" alt="">
             </div>
             <div class="steps">
                 <div class="number_circle">2</div>
                 <div class="content">
-                    <h6>Earn Daily Returns</h6>
-                    <p>Your balance grows automatically as long as it stays active.</p>
+                    <h6>Data Encryption</h6>
+                    <p>All data stored and transmitted is protected by 256-bit encryption.</p>
                 </div>
+                <img class="steps_img" src="../assets/lock_coins.svg" alt="">
             </div>
             <div class="steps">
                 <div class="number_circle">3</div>
                 <div class="content">
-                    <h6>Withdraw Anytime</h6>
-                    <p>Access your funds instantly whenever you need them.</p>
+                    <h6>Regular Audits</h6>
+                    <p>Systems are audited quarterly to maintain compliance.</p>
                 </div>
+                <img class="steps_img" src="../assets/audits.svg" alt="">
+            </div>
+            <div class="steps">
+                <div class="number_circle">4</div>
+                <div class="content">
+                    <h6>Secure Cloud Hosting</h6>
+                    <p>Your funds and info are hosted on protected, ISO-certified infrastructure.</p>
+                </div>
+                <img class="steps_img" src="../assets/clouds.svg" alt="">
             </div>
         </div>
     </div>
@@ -37,17 +48,19 @@ export default {
 
 <style lang="scss" scoped>
 .steps {
-    width: 205px;
+    width: 202px;
     display: flex;
     flex-direction: column;
     gap: 12px;
+    flex-direction: column;
+    align-items: start;
 }
 
 .number_circle {
-    color: #00BFA6;
+    color: #FFFFFF;
     font-size: 18px;
     font-weight: 700;
-    background: #E6FAF7;
+    background: #5856D6;
     height: 40px;
     width: 40px;
     display: flex;
@@ -59,8 +72,9 @@ export default {
 .step_container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
+    justify-content: space-around;
+    align-content: start !important;
+    gap: 40px;
 
 }
 
@@ -90,7 +104,7 @@ p {
 
 .works_container {
     background: #F7F7FB;
-    padding: 80px 20%;
+    padding: 80px 10%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -141,5 +155,6 @@ p {
 
 }
 }
+
 
 </style>

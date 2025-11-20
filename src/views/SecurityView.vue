@@ -1,43 +1,28 @@
 <template>
-    <div class="about">
-        <br>
-        <br>
-        <img class="img_resp" src="../assets/coming_soon.svg" alt="">
+    <div>
+        <SecurityHero />
+        <SecuritySecond />
+        <SecurityThird />
+        <SecuritySixth />
+        <SecurityForth />
+        <SecurityFifth />
         <FooterSection />
     </div>
 </template>
-  
+
 
 <script>
+import SecurityThird from '@/components/SecurityThird.vue';
+import SecuritySecond from '@/components/SecuritySecond.vue';
+import SecurityHero from '@/components/SecurityHero.vue';
+import SecurityForth from '@/components/SecurityForth.vue';
 import FooterSection from '@/components/FooterSection.vue';
+import SecurityFifth from '@/components/SecurityFifth.vue';
+import SecuritySixth from '@/components/SecuritySixth.vue';
 
 export default {
-    components: { FooterSection }
+    components: { FooterSection, SecurityFifth, SecurityHero,SecuritySecond, SecurityForth, SecurityThird, SecuritySixth }
 }
 </script>
 
-<style lang="scss" scoped>
-.about {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #7750a1;
-}
-
-.img_resp {
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    height: 100vh;
-}
-
-@media screen and (max-width: 430px) {
-    .img_resp {
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-}
-</style>
+<style lang="scss" scoped></style>

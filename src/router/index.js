@@ -9,7 +9,7 @@ import NotFound from "../views/NotFound.vue";
 import PrivacyPolicy from "../views/PrivacyPolicy.vue";
 import TermsandConditions from "../views/TermsandConditions.vue";
 import AmlPolicy from "../views/AmlPolicy.vue";
-// import ContactForm from "../views/ContactForm.vue";
+import ContactView from "../views/ContactView.vue";
 
 Vue.use(VueRouter);
 
@@ -45,7 +45,7 @@ const routes = [
     component: PrivacyPolicy,
   },
   {
-    path: "/termsandconditions",
+    path: "/terms",
     name: "termsandconditions",
     component: TermsandConditions,
   },
@@ -59,11 +59,11 @@ const routes = [
     name: "notfound",
     component: NotFound,
   },
-  // {
-  //   path: "/form",
-  //   name: "contactForm",
-  //   component: ContactForm,
-  // },
+  {
+    path: "/contact",
+    name: "contactview",
+    component: ContactView,
+  },
   {
     path: "/cards",
     name: "cards",

@@ -8,8 +8,8 @@
         </div>
         <div class="footer_middle">
             <RouterLink to="/terms">Terms</RouterLink>
-            <RouterLink to="/privacy">Privacy</RouterLink>
-            <RouterLink to="/contract">Contract</RouterLink>
+            <RouterLink to="/privacypolicy">Privacy</RouterLink>
+            <RouterLink to="/contact">Contact</RouterLink>
         </div>
         <div class="d-flex gap-3 aligh-items-center">
             <img src="../assets/facebook.svg" alt="">
