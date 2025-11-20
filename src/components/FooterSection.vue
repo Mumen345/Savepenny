@@ -1,106 +1,23 @@
 <template>
-    <footer class=" text-white p-5" style="background-color:#000000;">
-        <!-- Grid container -->
-        <div class="container p-4">
-            <!-- Section: Links -->
-            <section class="">
-                <!--Grid row-->
-                <div class="row">
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-1"><img src="../assets/logo_white.svg" alt=""></h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="#!" class="text-white">Money talks, purplepays </a>
-                            </li>
-                            <li>
-                                <section class="mb-4">
-
-                                    <!-- Twitter -->
-                                    <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee"
-                                        href="https://twitter.com/Purplepay_app?t=bHlvbt_nCNLsJojjDIpwtA&s=09"
-                                        role="button"><i class="fab fa-twitter"></i></a>
-                                    <!-- Instagram -->
-                                    <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"
-                                        href="https://instagram.com/purplepay_app?igshid=YmMyMTA2M2Y=" role="button"><i
-                                            class="fab fa-instagram"></i></a>
-                                </section>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4">Product</h5>
-
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-3">
-                                <router-link class="text-white " to="/cards">Cards</router-link>
-                            </li>
-                            <li class="mb-3">
-                                <router-link class="text-white " to="/careers">Career</router-link>
-                            </li>
-                            <li class="mb-3">
-                                <router-link class="text-white " to="/vendors">Vendor</router-link>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4">Company</h5>
-
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-3">
-                                <a class="text-white " href="/docs">API Documentation</a>
-                            </li>
-                            <li class="mb-3">
-                                <router-link class="text-white " to="/privacypolicy">Privacy
-                                    Policy</router-link>
-                            </li>
-                            <li class="mb-3">
-                                <router-link class="text-white " to="/termsandconditions">Terms
-                                    and Condition</router-link>
-                            </li>
-                            <!-- <li class="mb-3">
-                                <router-link class="text-white " to="/amlpolicy">AML Policy</router-link>
-                            </li> -->
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-
-
-
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4">Contacts us</h5>
-
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-3">
-                                <a class="text-white"
-                                    href="mailto:Support@purplepayapp.com">Support@purplepayapp.com</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-                </div>
-                <!--Grid row-->
-            </section>
-            <!-- Section: Links -->
-
+    <footer class="footer_container">
+        <div class="footer_first">
+            <img src="../assets/logo_white.svg" alt="">
+            <p>
+                © 2026 Pockie Technologies Global (Pty) Ltd
+            </p>
         </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
-        <br />
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-            © 2023 Copyright:
-            <a class="text-white" href="#">Purplepay</a>
+        <div class="footer_middle">
+            <RouterLink to="/terms">Terms</RouterLink>
+            <RouterLink to="/privacy">Privacy</RouterLink>
+            <RouterLink to="/contract">Contract</RouterLink>
         </div>
-        <!-- Copyright -->
-
+        <div class="d-flex gap-3 aligh-items-center">
+            <img src="../assets/facebook.svg" alt="">
+            <img src="../assets/x.svg" alt="">
+            <img src="../assets/ig.svg" alt="">
+            <img src="../assets/tiktok.svg" alt="">
+            <img src="../assets/youtube.svg" alt="">
+        </div>
     </footer>
 </template>
 
@@ -111,5 +28,55 @@ export default {
 </script>
 
 <style scoped>
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
 
+.footer_first {
+    width: 220px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
+
+.footer_middle {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: #6F6F7B;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-decoration: underline;
+
+}
+
+@media screen and (max-width: 750px) {
+    .footer_container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .footer_first {
+        width: 100%;
+    }
+
+    .footer_middle {
+        flex-direction: column;
+    }
+}
 </style>
