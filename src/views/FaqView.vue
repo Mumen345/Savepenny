@@ -1,43 +1,26 @@
 <template>
     <div class="about">
-        <br>
-        <br>
-        <img class="img_resp" src="../assets/coming_soon.svg" alt="">
+        <FaqHero />
+        <AccordionComponent />
+        <FaqHelp />
+        <FaqLast />
         <FooterSection />
     </div>
 </template>
-  
+
 
 <script>
+import FaqHero from '@/components/FaqHero.vue';
+import AccordionComponent from '@/components/AccordionComponent.vue';
 import FooterSection from '@/components/FooterSection.vue';
+import FaqHelp from '@/components/FaqHelp.vue';
+import FaqLast from '@/components/FaqLast.vue';
 
 export default {
-    components: { FooterSection }
+    components: { FooterSection, AccordionComponent, FaqHero, FaqHelp, FaqLast }
 }
 </script>
 
 <style lang="scss" scoped>
-.about {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #7750a1;
-}
-
-.img_resp {
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    height: 100vh;
-}
-
-@media screen and (max-width: 430px) {
-    .img_resp {
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-}
+@media screen and (max-width: 430px) {}
 </style>

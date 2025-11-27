@@ -1,6 +1,6 @@
 <template>
     <div class="fifth_section_container">
-        <h1 class="text-white">Experience a savings platform that protects what matters most, you!</h1>
+        <h1 class="text-white">Ready to start saving smarter?</h1>
         <div class="download_container">
             <a class="" href="#" role="button"><img src="../assets/appstore.svg" alt="" /> </a>
             <a class="" href="#" role="button"><img src="../assets/googleplay.svg" alt="" />
