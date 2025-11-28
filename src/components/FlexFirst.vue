@@ -149,7 +149,7 @@ h2 {
 
 @media screen and (max-width: 1200px) {
     .hero_container {
-        margin-top: 65px;
+        /* margin-top: 65px; */
         padding: 10%;
         width: 100%;
         height: auto;

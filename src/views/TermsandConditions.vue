@@ -1,18 +1,18 @@
 <template>
     <div>
-        <TermsComponent />
-        <FifthSection />
+        <TermsHero />
+        <TermsFifth />
         <FooterSection />
     </div>
 </template>
 
 <script>
-import TermsComponent from '@/components/TermsComponent.vue';
-import FifthSection from '@/components/FifthSection.vue';
+import TermsHero from '@/components/TermsHero.vue';
 import FooterSection from '@/components/FooterSection.vue';
+import TermsFifth from '@/components/TermsFifth.vue';
 
 export default {
-    components: { FooterSection, FifthSection, TermsComponent }
+    components: { FooterSection, TermsHero,TermsFifth }
 }
 </script>
 

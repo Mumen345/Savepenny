@@ -1,18 +1,18 @@
 <template>
     <div>
-        <PrivacyComponent />
-        <FifthSection />
+        <PrivacyHero />
+        <PrivacyFifth />
         <FooterSection />
     </div>
 </template>
 
 <script>
-import PrivacyComponent from '@/components/PrivacyComponent.vue';
-import FifthSection from '@/components/FifthSection.vue';
 import FooterSection from '@/components/FooterSection.vue';
+import PrivacyFifth from '@/components/PrivacyFifth.vue';
+import PrivacyHero from '@/components/PrivacyHero.vue';
 
 export default {
-    components: { FooterSection, FifthSection, PrivacyComponent }
+    components: { FooterSection, PrivacyHero,PrivacyFifth }
 }
 </script>
 

@@ -30,7 +30,6 @@ export default {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 65px;
     color:#ffffff;
     
 }
