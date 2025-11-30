@@ -102,13 +102,13 @@ h4 {
     flex-wrap: wrap;
 }
 .cards{
-    width: 336px;
+    width: 100%;
 }
 }
 
 @media screen and (max-width: 726px) {
     .cards{
-        width: 300px;
+        width: 100%;
     }
 }
 @media screen and (max-width: 726px) {
