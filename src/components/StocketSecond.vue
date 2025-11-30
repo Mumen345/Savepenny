@@ -1,43 +1,13 @@
 <template>
     <div class="hero_container">
         <div class="cards">
-            <div class="writeup_top">
-                <img src="../assets/eye.svg" alt="">
-                <div>
-                    <h4>Transparent Contributions</h4>
-                    <p>Track deposits, cycles, and payouts in real time. No hidden records.</p>
-                </div>
-            </div>
-            <div class="btn_right">
-                <a href="#">Learn More</a>
-                <img src="../assets/arrow_right.png" alt="">
-            </div>
+            <img src="../assets/Stokvel_1.svg" alt="">
         </div>
         <div class="cards">
-            <div class="writeup_top">
-                <img src="../assets/eye.svg" alt="">
-                <div>
-                    <h4>Automated Reminders</h4>
-                    <p>Never miss a contribution. Get smart reminders and payment notifications.</p>
-                </div>
-            </div>
-            <div class="btn_right">
-                <a href="#">Learn More</a>
-                <img src="../assets/arrow_right.png" alt="">
-            </div>
+            <img src="../assets/Stokvel_2.svg" alt="">
         </div>
         <div class="cards">
-            <div class="writeup_top">
-                <img src="../assets/eye.svg" alt="">
-                <div>
-                    <h4>Digital Wallet Integration</h4>
-                    <p>Link your bank or wallet for instant deposits and withdrawal convenience.</p>
-                </div>
-            </div>
-            <div class="btn_right">
-                <a href="#">Learn More</a>
-                <img src="../assets/arrow_right.png" alt="">
-            </div>
+            <img src="../assets/Stokvel_3.svg" alt="">
         </div>
     </div>
 </template>
@@ -68,11 +38,9 @@ h4 {
 .cards{
     display: flex;
     flex-direction: column;
-    padding: 32px;
-    border: 1px solid #EDEDED;
     border-radius: 20px;
     justify-content: space-between;
-    height: 330.66px;
+    height: auto;
 }
 .writeup_top p {
     font-size: 14px;

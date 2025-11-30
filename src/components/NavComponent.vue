@@ -76,7 +76,7 @@ ul{
 .container {
     max-width: 1240px;
     margin: auto;
-    padding: 1rem;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -167,7 +167,7 @@ ul{
         flex-direction: column;
         gap: 1rem;
         position: absolute;
-        top: 70px;
+        top: 50px;
         left: 0;
         width: 100%;
         padding: 1.5rem 0;

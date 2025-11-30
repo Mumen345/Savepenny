@@ -1,43 +1,16 @@
 <template>
     <div class="hero_container">
         <div class="cards">
-            <div class="writeup_top">
-                <img src="../assets/access.svg" alt="">
-                <div>
-                    <h4>Flexible Access</h4>
-                    <p>Deposit or withdraw anytime. Your money is always available.</p>
-                </div>
-            </div>
-            <div class="btn_right">
-                <a href="#">Learn More</a>
-                <img src="../assets/greenarrow_right.svg" alt="">
-            </div>
+            <img src="../assets/FlexRand_1.svg" alt="">
+            
         </div>
         <div class="cards">
-            <div class="writeup_top">
-                <img src="../assets/lock.svg" alt="">
-                <div>
-                    <h4>Zero Lock-in</h4>
-                    <p>Withdraw anytime without losing your growth interest.</p>
-                </div>
-            </div>
-            <div class="btn_right">
-                <a href="#">Learn More</a>
-                <img src="../assets/greenarrow_right.svg" alt="">
-            </div>
+            <img src="../assets/FlexRand_2.svg" alt="">
+            
         </div>
         <div class="cards">
-            <div class="writeup_top">
-                <img src="../assets/growth.svg" alt="">
-                <div>
-                    <h4>Auto-Growth</h4>
-                    <p>Your balance grows daily through our flexible return model.</p>
-                </div>
-            </div>
-            <div class="btn_right">
-                <a href="#">Learn More</a>
-                <img src="../assets/greenarrow_right.svg" alt="">
-            </div>
+            <img src="../assets/FlexRand_3.svg" alt="">
+        
         </div>
     </div>
 </template>
@@ -68,11 +41,9 @@ h4 {
 .cards{
     display: flex;
     flex-direction: column;
-    padding: 32px;
-    border: 1px solid #EDEDED;
     border-radius: 20px;
     justify-content: space-between;
-    height: 330.66px;
+    height: auto;
 }
 .writeup_top p {
     font-size: 14px;
