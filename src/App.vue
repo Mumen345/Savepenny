@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <NavBar />
+    <NavComponent />
     <router-view />
   </div>
 </template>
 <script>
 // @ is an alias to /src
-import NavBar from "@/components/NavBar.vue";
+import NavComponent from "@/components/NavComponent.vue";
 
 export default {
   name: "App",
   components: {
-    NavBar,
+    NavComponent,
   },
 };
 </script>
@@ -71,14 +71,16 @@ nav {
 
   a {
     font-weight: medium;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 16px;
-    text-transform: capitalize !important;
-
+    // text-transform: capitalize !important;
+    
     &.router-link-exact-active {
-      color: #5856D6;
+      color: #5856D6 !important;
       font-weight: bold;
-      text-decoration: underline;
+      font-size: 17px;
+      // text-decoration: underline !important;
+      // border-bottom: 1px solid #5856D6;
     }
   }
 }
@@ -106,6 +108,8 @@ nav {
     width: 100%;
     gap: 12px;
 }
-
+a {
+  text-decoration: none;
+}
 
 </style>
