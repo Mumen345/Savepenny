@@ -157,6 +157,7 @@ export default {
   align-items: center;
   width: 470px;
   gap: 30px;
+  padding: 15px;
 }
 
 .contact_first {
