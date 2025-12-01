@@ -1,6 +1,6 @@
 <template>
     <div class="works_container">
-        <h2>How FlexRand Works</h2>
+        <h2 class="fw-bold">How FlexRand Works</h2>
         <div class="step_container">
             <div class="steps">
                 <div class="number_circle">1</div>

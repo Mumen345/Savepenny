@@ -1,6 +1,6 @@
 <template>
     <div class="works_container">
-        <h2>How Stokvel Works</h2>
+        <h2 class="fw-bold">How Stokvel Works</h2>
         <div class="step_container">
             <div class="steps">
                 <div class="number_circle">1</div>
@@ -119,22 +119,43 @@ p {
     }
 }
 
-@media screen and (max-width: 540px) {
+// @media screen and (max-width: 540px) {
+//     .works_container {
+//         background: #F7F7FB;
+//         padding: 80px 20px;
+//         display: flex;
+//         flex-direction: column;
+//         gap: 40px;
+//         margin-top: 10%;
+//     }
+    
+// }
+// @media screen and (max-width: 450px) {
+//        .steps {
+//         width: 100%;
+//     }
+// }
+@media screen and (max-width: 800px) {
     .works_container {
-        background: #F7F7FB;
+        background: none;
         padding: 80px 20px;
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 20px;
         margin-top: 10%;
     }
-    
-}
-@media screen and (max-width: 450px) {
-       .steps {
-        width: 100%;
-    }
-}
 
+    .steps {
+        width: 100%;
+        background: #F9F9FB;
+        padding: 30px;
+        border-radius: 16px;
+    }
+    .steps_img {display: none;}
+    .step_container {
+    gap: 20px;
+
+}
+}
 
 </style>
