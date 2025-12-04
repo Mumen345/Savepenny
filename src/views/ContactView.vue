@@ -81,6 +81,12 @@
         </div>
       </div>
     </div>
+      <div class="text-center p-5 bg-light m-0">
+            <hr>
+            <p>
+                Last updated: January 10, 2026
+            </p>
+        </div>
     <FooterSection />
   </div>
 </template>
@@ -191,13 +197,7 @@ export default {
   color: #ffffff;
 }
 
-.two {
-  background: #00BFA6;
-}
 
-.three {
-  background: #FF7A00;
-}
 
 a {
   color: #ffffff;

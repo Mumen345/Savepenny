@@ -1,7 +1,14 @@
 <template>
     <div>
         <TermsHero />
+          <div class="text-center p-5 bg-light">
+            <hr>
+            <p>
+                Last updated: January 10, 2026
+            </p>
+        </div>
         <TermsFifth />
+    
         <FooterSection />
     </div>
 </template>

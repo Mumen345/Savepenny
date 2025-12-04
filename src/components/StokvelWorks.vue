@@ -89,7 +89,7 @@ p {
 }
 
 .works_container {
-    background: #F7F7FB;
+    background: #FFF6EC;
     padding: 80px 20%;
     display: flex;
     flex-wrap: wrap;
@@ -105,7 +105,7 @@ p {
 
 @media screen and (max-width: 1160px) {
     .works_container {
-        background: #F7F7FB;
+        background: #FFF6EC;
         padding: 80px 12%;
         display: flex;
         flex-direction: column;
@@ -121,7 +121,7 @@ p {
 
 // @media screen and (max-width: 540px) {
 //     .works_container {
-//         background: #F7F7FB;
+//         background: #FFF6EC;
 //         padding: 80px 20px;
 //         display: flex;
 //         flex-direction: column;

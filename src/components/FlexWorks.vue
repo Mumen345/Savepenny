@@ -44,10 +44,10 @@ export default {
 }
 
 .number_circle {
-    color: #00BFA6;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 700;
-    background: #E6FAF7;
+    background: #00BFA6;
     height: 40px;
     width: 40px;
     display: flex;
@@ -89,7 +89,7 @@ p {
 }
 
 .works_container {
-    background: #F7F7FB;
+    background: #E6FAF7;
     padding: 80px 20%;
     display: flex;
     flex-wrap: wrap;
@@ -105,7 +105,7 @@ p {
 
 @media screen and (max-width: 1160px) {
     .works_container {
-        background: #F7F7FB;
+        background: #E6FAF7;
         padding: 80px 12%;
         display: flex;
         flex-direction: column;
@@ -131,7 +131,7 @@ p {
 
     .steps {
         width: 100%;
-        background: #F9F9FB;
+        background: #E6FAF7;
         padding: 30px;
         border-radius: 16px;
     }

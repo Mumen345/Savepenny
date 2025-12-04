@@ -119,6 +119,9 @@ p {
     .pills {
         width: 100% !important;
     }
+    .pills_outline {
+        width: 100% !important;
+    }
 
     .pills_container {
         display: flex;
@@ -126,6 +129,7 @@ p {
         justify-content: center;
         align-items: center;
         gap: 12px;
+        width: 100%;
     }
 }
 </style>

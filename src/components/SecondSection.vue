@@ -1,6 +1,6 @@
 <template>
     <div class="section_two">
-        <div class="section_two_left primary_orange">
+        <div class="section_two_left ">
             <img src="../assets/group_savings.svg" alt="">
             <div>
                 <h4 class="text-white">Stokvel — Group Savings Made Simple</h4>
@@ -10,7 +10,7 @@
             </div>
             <a class="text-white " href="#">Learn More</a>
         </div>
-        <div class="section_two_left primary_green">
+        <div class="section_two_left ">
             <img src="../assets/walet.svg" alt="">
             <div>
                 <h4 class="text-white">FlexRand — Save at Your Pace</h4>
@@ -63,6 +63,8 @@ export default {
     justify-content: space-around;
     gap: 12px;
     height: 300px;
+    background: #5856D6;
+    color: #ffffff;
 
 }
 
